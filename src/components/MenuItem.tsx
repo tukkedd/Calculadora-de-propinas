@@ -8,7 +8,7 @@ type MenuItemProps = {
 export default function MenuItem ({item, addItem} : MenuItemProps)  {
   return (
     <button
-      className="border-2 border-teal-400 p-3 flex justify-between w-full hover:bg-teal-200"
+      className="border-2 rounded border-teal-400 p-3 flex justify-between w-full hover:bg-teal-200"
       onClick={() => addItem(item)}
     >
        <p>{item.name}</p>   
